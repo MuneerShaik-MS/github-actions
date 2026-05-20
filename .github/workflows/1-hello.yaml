@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: print hello Muneer
         run: echo "Hello Muneer"
+      - name: print hi Keerthi
+        run: echo "Hi Keerthi"
