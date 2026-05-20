@@ -1,7 +1,8 @@
 name: hello pipeline
 on: [ push ]
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: print hello Muneer
-      run: echo "Hello Muneer"
+  hello-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello Muneer
+        run: echo "Hello Muneer"
