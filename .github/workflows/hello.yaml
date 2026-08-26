@@ -1,0 +1,12 @@
+name: print hello
+on:
+  workflowdispatch:
+jobs:
+  Print Hello:
+    runs-on: ubuntu-latest
+    steps:
+    - print hello
+      echo "Hello"
+
+
+
