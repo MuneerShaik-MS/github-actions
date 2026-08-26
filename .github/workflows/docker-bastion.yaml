@@ -2,12 +2,13 @@ name: docker bastion
 on: 
   workflow_dispatch:
 jobs:
-  runs-on: ubuntu-latest
-  steps: 
-  - name: checkout code
-    uses: actions/checkout@v5
-  - name: checking files
-    run: ls -l
-    
+  docker-bastion:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: checkout code
+      uses: actions/checkout@v5
+    - name: checking files
+      run: ls -l
+
 
 
