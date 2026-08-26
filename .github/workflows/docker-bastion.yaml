@@ -8,7 +8,7 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v5
     - name: checking files
-      run: ls -l
+      run: ls -la
 
 
 
